@@ -1,0 +1,219 @@
+html,
+body{
+    height: 100%
+}
+a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 5px;
+}
+.content-cv{
+    max-width: 1024px;
+    margin: 0 auto;
+    background-color: #b9b4b4;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    padding: 30px 0 30px 100px;
+}
+
+.name-work{
+    margin-left: 165px
+}
+.avatar{
+    border-radius: 50%;
+    max-width: 100px;
+    float: left;
+}
+
+.name{
+    font-size: 40px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    margin-bottom: 5px;
+}
+
+.work{
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.main{
+    display: flex;
+    max-width: 1000px;
+    margin: 0 50px;
+    flex: 1 1 auto;
+
+}
+
+.about-me{
+    padding: 50px;
+    margin-left: 50px;
+}
+
+.title{
+    font-size: 25px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    /* color: #be8b42; */
+    margin-bottom: 20px;
+}
+.title-dt,
+.title-date{
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-bottom: 10px;
+}
+.city,
+.country,
+.phone-link{
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 5px;
+    display: block;
+}
+.email-link{
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: block;
+    margin: 0 0 35px 0;
+}
+.profile-info,
+.my-experience-info{
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: normal;
+    margin-bottom: 35px;
+}
+.education-info{
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: normal;
+    margin-bottom: 5px;
+}
+.education-university,
+.location{
+    display: flex;
+}
+.location-img{
+    display: block;
+    max-height: 15px;
+}
+.education-info,
+.education-university{
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.date,
+.country-education{
+    margin-right: 30px;
+}
+.location-img{
+    margin-right: 10px;
+}
+.links-social-network{
+    display: flex;
+    flex-direction: column;
+}
+.links-social-network:last-of-type{
+    margin-bottom: 35px;
+}
+
+.skills-circle{
+    display: flex;
+}
+.languages{
+    margin-bottom: 35px;
+}
+.title-skill,
+.title-languages{
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-bottom: 10px;
+}
+.circle-html,
+.circle-css,
+.circle-js,
+.circle-git,
+.circle-figma,
+.circle-languages-en,
+.circle-languages-ru{
+    width: 10px;
+    height: 10px;
+    background-color: #000000;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+.circle-html:nth-last-child(1),
+.circle-html:nth-last-child(2),
+.circle-css:nth-last-child(1),
+.circle-css:nth-last-child(2),
+.circle-css:nth-last-child(3),
+.circle-js:nth-last-child(1),
+.circle-js:nth-last-child(2),
+.circle-js:nth-last-child(3),
+.circle-js:nth-last-child(4),
+.circle-git:nth-last-child(1),
+.circle-git:nth-last-child(2),
+.circle-git:nth-last-child(3),
+.circle-git:nth-last-child(4),
+.circle-figma:nth-last-child(1),
+.circle-languages-en:nth-last-child(1),
+.circle-languages-en:nth-last-child(2),
+.circle-languages-en:nth-last-child(3),
+.circle-languages-en:nth-last-child(4){
+    background-color: #706c6c;
+}
+.skills-figma:nth-last-child(1)
+{
+    margin-bottom: 35px;
+}
+.footer-info{
+    background-color: #706c6c;
+    display: flex;
+    padding: 15px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.link-git-img{
+    max-height: 35px;
+    display: block;
+}
+.logo-rsschool{
+    display: block;
+    height: 35px;
+    margin: 0;
+}
+.date-course{
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
